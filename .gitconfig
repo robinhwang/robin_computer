@@ -1,0 +1,20 @@
+[user]
+	name = robinhwang
+	email = binbinhuangcsu@gmail.com
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = true
+[core]
+	editor = emacs
+[alias]
+	ci =  commit -a -v
+	a =  add .
+	co = checkout
+	br = branch
+	p =  push
+	st =  status
+	t =  reset --hard HEAD
+	tl =  reset --hard HEAD^
+[merge]
+	tool = kdiff3
